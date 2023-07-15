@@ -1,0 +1,238 @@
+{
+        "intents":[
+           {
+              "tag":"greeting",
+              "patterns":[
+                 "Hi",
+                 "Hello",
+                 "Hey"
+              ],
+              "responses":[
+                 "Hello! How can I help you with your cardiovascular health questions?"
+              ]
+           },
+           {
+              "tag":"cardiovascular_disease_info",
+              "patterns":[
+                 "What is cardiovascular disease?",
+                 "Tell me about heart disease",
+                 "Explain about cardiovascular disease"
+              ],
+              "responses":[
+                 "Cardiovascular disease is a class of diseases that involve the heart and blood vessels, such as coronary artery disease, heart failure, and others."
+              ]
+           },
+           {
+              "tag":"cardiovascular_disease_info",
+              "patterns":[
+                 "At what range of age people we see cardiovascular disease?",
+                 "What age people get cardiovascular disease?",
+		           "What age people of men get cardiovascular disease?",
+		           "What age people of women get cardiovascular disease?"
+              ],
+              "responses":[
+                 "The average age for a heart attack is 64.5 for men, and 70.3 for women, nearly 20% of those who die of heart disease are under the age of 65"
+              ]
+           },
+           {
+              "tag":"symptoms",
+              "patterns":[
+                 "What are the symptoms of heart disease?",
+                 "How do I know if I have heart problems?",
+                 "Can you tell me more about the symptoms of cardiovascular disease?"
+              ],
+              "responses":[
+                 "Symptoms of heart disease can include chest pain, shortness of breath, fatigue, irregular heartbeat, and others. If you're experiencing these symptoms, it's important to consult a medical professional."
+              ]
+           },
+           {
+              "tag":"risk_factors",
+              "patterns":[
+                 "What are the risk factors for heart disease?",
+                 "What causes heart problems?",
+                 "Can you tell me more about the factors that contribute to cardiovascular disease?",
+                 "Will there be any life threat for heart disease?"
+              ],
+              "responses":[
+                 "Risk factors for heart disease include high blood pressure, high cholesterol, smoking, obesity, diabetes, physical inactivity, and a family history of heart disease."
+              ]
+           },
+           {
+            "tag":"family_risks",
+            "patterns":[
+               "How does my family history affect my heart health?",
+               "Does family history affect heart disease?",
+               "How can family history damage the heart?"
+            ],
+            "responses":[
+               "Having a family health history of heart disease makes you more likely to develop heart disease yourself."
+            ]
+         },
+           {
+              "tag":"prevention",
+              "patterns":[
+                 "How can I prevent heart disease?",
+                 "What can I do to reduce my risk of heart problems?",
+                 "What are some lifestyle changes that can help prevent cardiovascular disease?"
+              ],
+              "responses":[
+                 "To prevent heart disease, maintain a healthy lifestyle by eating a balanced diet, exercising regularly, managing stress, maintaining a healthy weight, avoiding smoking, and controlling blood pressure and cholesterol levels."
+              ]
+           },
+           {
+              "tag":"treatment",
+              "patterns":[
+                 "What are the treatment options for heart disease?",
+                 "How is cardiovascular disease treated?",
+                 "Can you tell me more about the different treatments for heart problems?",
+                 "Are there any natural remedies to avoid heart disease?"
+              ],
+              "responses":[
+                 "Treatment for heart disease depends on the specific condition and may include lifestyle changes, medications, medical procedures, or surgery. Always consult a healthcare professional for personalized treatment recommendations."
+              ]
+           },
+           {
+              "tag":"emergency",
+              "patterns":[
+                 "What should I do in a heart-related emergency?",
+                 "What are the signs of a heart attack?",
+                 "What should I do if I think I'm having a heart attack?"
+              ],
+              "responses":[
+                 "In case of a heart-related emergency, such as a suspected heart attack, call emergency services immediately. Common signs of a heart attack include chest pain, shortness of breath, nausea, lightheadedness, and cold sweats."
+              ]
+           },
+           {
+              "tag":"exercise",
+              "patterns":[
+                 "How much exercise do I need for a healthy heart?",
+                 "What type of exercise is best for cardiovascular health?"
+              ],
+              "responses":[
+                 "The American Heart Association recommends at least 150 minutes of moderate-intensity exercise or 75 minutes of vigorous-intensity exercise per week for cardiovascular health. Cardiovascular exercise, such as running, swimming, or cycling, is especially beneficial."
+              ]
+           },
+           {
+              "tag":"diet",
+              "patterns":[
+                 "What should I eat for a healthy heart?",
+                 "What foods are good for cardiovascular health?",
+                 "Any suggestions to maintain healthy heart?"
+              ],
+              "responses":[
+                 "A heart-healthy diet should be rich in fruits, vegetables, whole grains, lean protein, and healthy fats. Foods to limit or avoid include those high in saturated and trans fats, added sugars, and sodium. Examples of heart-healthy foods include salmon, nuts, berries, dark chocolate, and avocados."
+              ]
+           },
+           {
+              "tag":"cholesterol",
+              "patterns":[
+                 "What is cholesterol and how does it affect my heart?",
+                 "How can I manage my cholesterol levels?"
+              ],
+              "responses":[
+                 "Cholesterol is a fatty substance found in the blood that can contribute to heart disease if levels are too high. Lifestyle changes such as a healthy diet and exercise, as well as medications like statins, can help manage cholesterol levels."
+              ]
+           },
+           {
+              "tag":"blood_pressure",
+              "patterns":[
+                 "What is high blood pressure and how does it affect my heart?",
+                 "How can I lower my blood pressure?"
+              ],
+              "responses":[
+                 "High blood pressure, or hypertension, can contribute to heart disease if left unmanaged. Lifestyle changes such as a healthy diet, regular exercise, stress management, and medication can help lower blood pressure."
+              ]
+           },
+           {
+              "tag":"smoking",
+              "patterns":[
+                 "How does smoking affect my heart?",
+                 "What are the risks of smoking for cardiovascular health?"
+              ],
+              "responses":[
+                 "Smoking is a major risk factor for heart disease, as it can damage the blood vessels and contribute to the buildup of plaque. Quitting smoking is one of the best things you can do for your cardiovascular health."
+              ]
+           },
+           {
+              "tag":"alcohol",
+              "patterns":[
+                 "Is drinking alcohol bad for my heart?",
+                 "How much alcohol is safe for cardiovascular health?"
+              ],
+              "responses":[
+                 "Drinking too much alcohol can contribute to high blood pressure, irregular heartbeat, and other heart problems. The American Heart Association recommends limiting alcohol intake to no more than one drink per day for women and two drinks per day for men."
+              ]
+           },
+           {
+              "tag":"stress",
+              "patterns":[
+                 "How does stress affect my heart?",
+                 "What can I do to manage stress for cardiovascular health?"
+              ],
+              "responses":[
+                 "Stress can contribute to high blood pressure and other heart problems if left unmanaged. Strategies for managing stress include regular exercise, relaxation techniques like yoga or meditation, and engaging in hobbies or activities you enjoy."
+              ]
+           },
+           {
+              "tag":"exercise_benefits",
+              "patterns":[
+                 "What are the benefits of exercise for my heart?",
+                 "How does exercise help my cardiovascular health?"
+              ],
+              "responses":[
+                 "Exercise is beneficial for cardiovascular health in many ways, including improving heart and lung function, reducing inflammation, and helping to manage blood pressure and cholesterol levels."
+              ]
+           },
+           {
+              "tag":"exercise_benefits",
+              "patterns":[
+                 "What exercises should I do to improve my cardiovascular health?",
+                 "Can you recommend a workout plan for me?"
+              ],
+              "responses":[
+                 "Some exercises that are beneficial for cardiovascular health include running, cycling, swimming, and high-intensity interval training. It's important to find an exercise routine that works for you and that you enjoy doing."
+              ]
+           },
+           {
+              "tag":"genetics",
+              "patterns":[
+                 "Is heart disease hereditary?",
+                 "What role does genetics play in cardiovascular health?"
+              ],
+              "responses":[
+                 "Genetics can play a role in heart disease risk, and it's important to understand your family history. If you have a family history of heart disease, talk to your doctor about steps you can take to manage your risk."
+              ]
+           },
+           {
+              "tag":"medications",
+              "patterns":[
+                 "What medications are commonly prescribed for heart disease?",
+                 "How do I know if I need to take medication for my heart health?"
+              ],
+              "responses":[
+                 "Common medications for heart disease include blood pressure medications, cholesterol-lowering medications, and medications to treat heart failure. Always consult a healthcare professional before starting or stopping any medications."
+              ]
+           },
+           {
+              "tag":"supplements",
+              "patterns":[
+                 "Are there any supplements that can improve my heart health?",
+                 "What are the benefits of taking supplements for cardiovascular health?"
+              ],
+              "responses":[
+                 "Some supplements that are commonly used for heart health include omega-3 fatty acids, coenzyme Q10, and magnesium. However, it's important to consult a healthcare professional before taking any supplements, as they may interact with other medications or health conditions."
+              ]
+           },
+           {
+              "tag":"goodbye",
+              "patterns":[
+                 "Goodbye",
+                 "Bye",
+                 "See you later"
+              ],
+              "responses":[
+                 "Goodbye! If you have more questions about cardiovascular health, feel free to ask anytime."
+              ]
+           }
+        ]
+     }
